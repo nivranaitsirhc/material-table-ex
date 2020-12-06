@@ -441,6 +441,12 @@ export const styles = (theme) => ({
   root: {
     paddingRight: theme.spacing(1),
   },
+  '@media (max-width: 720px)': {
+  	root: {
+  		flexWrap: 'wrap',
+  		flexDirection: 'column'
+  	}
+  }
   highlight:
     theme.palette.type === "light"
       ? {
