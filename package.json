@@ -1,7 +1,7 @@
 {
-  "name": "material-table",
-  "version": "1.69.2",
-  "description": "Datatable for React based on https://material-ui.com/api/table/ with additional features",
+  "name": "@nivranaitsirhc/material-table-ex",
+  "version": "0.0.2",
+  "description": "Material-Table fork with immediate fixes",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "files": [
@@ -25,23 +25,6 @@
       "pre-commit": "npm run lint && pretty-quick --staged"
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mbrn/material-table.git"
-  },
-  "keywords": [
-    "react",
-    "material-ui",
-    "material",
-    "datatable",
-    "table"
-  ],
-  "author": "Mehmet Baran",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mbrn/material-table/issues"
-  },
-  "homepage": "https://github.com/mbrn/material-table#readme",
   "devDependencies": {
     "@babel/cli": "7.1.2",
     "@babel/core": "7.4.4",
@@ -93,5 +76,18 @@
     "@material-ui/core": "4.0.1",
     "react": "16.8.4",
     "react-dom": "16.8.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivranaitsirhc/material-table-ex.git"
+  },
+  "keywords": [
+    "material-table-ex"
+  ],
+  "author": "nivranaitsirhc aka cacc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nivranaitsirhc/material-table-ex/issues"
+  },
+  "homepage": "https://github.com/nivranaitsirhc/material-table-ex#readme"
 }

@@ -446,7 +446,7 @@ export const styles = (theme) => ({
   		flexWrap: 'wrap',
   		flexDirection: 'column'
   	}
-  }
+  },
   highlight:
     theme.palette.type === "light"
       ? {
