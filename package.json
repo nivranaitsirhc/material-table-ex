@@ -1,6 +1,6 @@
 {
   "name": "@nivranaitsirhc/material-table-ex",
-  "version": "0.0.3-v2",
+  "version": "0.0.4",
   "description": "Material-Table fork with immediate fixes",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
