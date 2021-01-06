@@ -318,11 +318,11 @@ export class MTableToolbar extends React.Component {
       typeof title === "string" ? (
         <Typography
           variant="h6"
-          style={{
-            whiteSpace: "nowrap",
-            overflow: "hidden",
-            textOverflow: "ellipsis",
-          }}
+          // style={{
+          //   whiteSpace: "nowrap",
+          //   overflow: "hidden",
+          //   textOverflow: "ellipsis",
+          // }}
         >
           {title}
         </Typography>
@@ -441,12 +441,6 @@ export const styles = (theme) => ({
   root: {
     paddingRight: theme.spacing(1),
   },
-  '@media (max-width: 720px)': {
-  	root: {
-  		flexWrap: 'wrap',
-  		flexDirection: 'column'
-  	}
-  },
   highlight:
     theme.palette.type === "light"
       ? {
@@ -464,7 +458,9 @@ export const styles = (theme) => ({
     color: theme.palette.text.secondary,
   },
   title: {
+    whiteSpace: "nowrap",
     overflow: "hidden",
+    textOverflow: "ellipsis",
   },
   searchField: {
     minWidth: 150,
@@ -473,6 +469,15 @@ export const styles = (theme) => ({
   formControlLabel: {
     paddingLeft: theme.spacing(1),
     paddingRight: theme.spacing(1),
+  },
+  '@media (max-width: 720px)': {
+    root: {
+      flexWrap: 'wrap',
+      flexDirection: 'column'
+    },
+    title: {
+      whiteSpace:'pre-wrap',
+    }
   },
 });
 
